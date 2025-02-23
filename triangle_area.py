@@ -1,8 +1,8 @@
 # FILE NAME - triangle_area.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Marcelo Luciano
+# DATE: February 17, 2025
+# BRIEF DESCRIPTION: A function that will calculate the area of a triangle given the height and base lengths.
 
 
 
@@ -16,16 +16,12 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+def find_area():
+    height = float(input("Enter the height: "))
+    base = float(input("Enter the base: "))
+    area = height * base / 2
+    print("The area of the triangle is " + str(area))
+find_area()
 ########### END YER CODE ABOVE THIS LINE ###########
 
 
@@ -66,14 +62,9 @@ The area of the triangle is 16.0
 
 1. What is the flow of the program? Which line of code kicks off the process?
 
-
-
-
+The code that calls the find_area() function is the one that kicks it off
 
 2. What was the hardest part of this lab?
 
-
-
-
-
+Getting the correct typecasts.
 '''
